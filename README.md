@@ -1,8 +1,8 @@
 # Shopee - Price Match Guarantee: Match products with descriptions and images
 
 
-# Machine learning project
-
+## Machine learning project
+[![CI](https://github.com/nogibjj/Shopee-Price-Match-Guarantee/actions/workflows/main.yml/badge.svg)](https://github.com/nogibjj/Shopee-Price-Match-Guarantee/actions/workflows/main.yml)
 
 #### Duke University (MIDS) - Spring 2023
 
