@@ -15,7 +15,10 @@
 		}
 	},
 	"features": {
-		"ghcr.io/devcontainers/features/docker-from-docker:1": {}
+		"ghcr.io/devcontainers/features/docker-from-docker:1": {},
+		"ghcr.io/devcontainers/features/nvidia-cuda:1": {
+			"installCudnn": true
+		},
 	},
 	// Configure tool-specific properties.
 	"customizations": {
@@ -23,7 +26,8 @@
 		"vscode": {
 			// Set *default* container specific settings.json values on container create.
 			"settings": {
-				"python.defaultInterpreterPath": "/usr/local/bin/python",
+				// "python.defaultInterpreterPath": "/usr/local/bin/python",
+				"python.defaultInterpreterPath": "/home/vscode/.venv/bin/python",
 				"python.linting.enabled": true,
 				"python.linting.pylintEnabled": true,
 				"python.formatting.autopep8Path": "/usr/local/py-utils/bin/autopep8",
@@ -41,7 +45,8 @@
 				"ms-python.python",
 				"ms-python.vscode-pylance",
 				"github.copilot",
-				"ms-vscode.makefile-tools"
+				"ms-vscode.makefile-tools",
+				"ms-toolsai.jupyter",
 			]
 		}
 	},
