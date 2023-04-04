@@ -18,7 +18,7 @@
 		"ghcr.io/devcontainers/features/docker-from-docker:1": {},
 		"ghcr.io/devcontainers/features/nvidia-cuda:1": {
 			"installCudnn": true
-		},
+		}
 	},
 	// Configure tool-specific properties.
 	"customizations": {
@@ -62,8 +62,8 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "bash setup.sh",
-	// "postCreateCommand": "virtualenv ~/.venv && echo 'source ~/.venv/bin/activate' >> ~/.bashrc && make install",
+	// "postCreateCommand": "bash setup.sh",
+	"postCreateCommand": "virtualenv ~/.venv && echo 'source ~/.venv/bin/activate' >> ~/.bashrc && make install",
 	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	// "remoteUser": "vscode",
 
@@ -72,7 +72,7 @@
 		"--security-opt",
 		"seccomp=unconfined",
 		"--privileged",
-		"--init",
+		"--init"
 		//"--gpus", "all"
-	],
+	]
 }
