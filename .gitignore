@@ -1,5 +1,5 @@
 .DS_Store
-00_source_data/
+# 00_source_data/
 20_intermediate_files/
 
 # Byte-compiled / optimized / DLL files
