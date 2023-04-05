@@ -1,6 +1,6 @@
 .DS_Store
 # 00_source_data/
-20_intermediate_files/
+30_results/ResNet50/checkpoints/.data*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
