@@ -15,7 +15,8 @@
 		}
 	},
 	"features": {
-		"ghcr.io/devcontainers/features/docker-from-docker:1": {},
+		//"ghcr.io/devcontainers/features/docker-from-docker:1": {},
+		"ghcr.io/rocker-org/devcontainer-features/miniforge:1": {}
 		// "ghcr.io/devcontainers/features/nvidia-cuda:1": {
 		// 	"installCudnn": true
 		// }
