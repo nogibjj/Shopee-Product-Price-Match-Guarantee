@@ -24,5 +24,9 @@ We used the following methods to train our models:
 - [DistilBERT](https://huggingface.co/transformers/model_doc/distilbert.html)
 - [ResNet50](https://keras.io/api/applications/resnet/)
 - [MobileNet](https://keras.io/api/applications/mobilenet/)
-- Joint Embeddings OF DistilBERT and MobileNet
+- Joint Embeddings of DistilBERT and MobileNet
+
+<img src="https://user-images.githubusercontent.com/81750079/233115703-5d9269f0-c75e-4f19-86df-1d42a974fdaa.png"  width="30%" height="40%">
+
+
 
