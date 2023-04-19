@@ -26,7 +26,7 @@ Shopee is the leading e-commerce platform in Southeast Asia and Taiwan; their pl
 
 ### Data Split
 
-<img src="https://user-images.githubusercontent.com/81750079/233125918-3a55fe21-266c-4744-9c87-af08063d9e00.png" width="30%" height="40%">
+<img src="https://user-images.githubusercontent.com/81750079/233125918-3a55fe21-266c-4744-9c87-af08063d9e00.png" width="60%" height="80%">
 
 
 ## Methods
