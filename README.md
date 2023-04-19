@@ -37,7 +37,7 @@ We used the following methods to train our models:
 - [MobileNet](https://keras.io/api/applications/mobilenet/)
 - Joint Embeddings of DistilBERT and MobileNet
 
-<img src="https://user-images.githubusercontent.com/81750079/233115703-5d9269f0-c75e-4f19-86df-1d42a974fdaa.png"  width="30%" height="40%">
+<img src="https://user-images.githubusercontent.com/81750079/233115703-5d9269f0-c75e-4f19-86df-1d42a974fdaa.png"  width="60%" height="80%">
 
 
 ## Results
