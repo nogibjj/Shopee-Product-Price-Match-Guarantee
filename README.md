@@ -13,6 +13,9 @@
 ## Project Overview
 A competitive feature amongst retail platforms is product matching which allows companies to offer products at rates competitive to other retailers selling similar products. There are many methods that combine deep learning and traditional machine learning methods to analyze image and text information to calculate similarity between products, however there is little research comparing the effectiveness of integrating multimodal data (product images and descriptions) under this domain (Łukasik et al., 2021). Here, we compare the performance of both unimodal and multimodal models. We trained separate models for text (SBERT and DistilBERT) and images (ResNet50 and MobileNet); the DistilBERT and ResNet50 models outperform the other two in terms of  F1 score and accuracy. The multimodal model used joint embeddings from DistilBERT and MobileNet to predict product labels, which outperformed both unimodal implementations. The integration of product images and titles offer the most useful information to find product matches on a particular platform. 
 
+## Presentation
+https://youtu.be/FvDNHgyIBxA
+
 ## Data
 Shopee is the leading e-commerce platform in Southeast Asia and Taiwan; their platform contains products from vendors all over the world, predominantly in Singapore and Indonesia. In 2021, the company launched a Kaggle competition aimed at improving product matching algorithms to optimize their customers’ online shopping experience (Dane et al., 2021).
 
@@ -47,9 +50,10 @@ Model Type| Model | F1 Score | Accuracy |
 ## Reproducibility
 To reproduce our results, please follow the steps below:
 1. Clone the repository
-2. If you cannot access data in `00_source_data` in this repo, download the data from the [Shopee Kaggle competition](https://www.kaggle.com/c/shopee-product-matching/data)
-3. Under `10_code`, run `01_train_test_split.ipynb` to split the data into train, validation and test sets
-4. Under `10_code`, run `02_Bert_Model.ipynb` to train and use the embeddings from SBERT and DistilBERT
-5. Under `10_code`, run `03_ResNet50_Embeddings.ipynb` to train and use the embeddings from ResNet50
-6. Under `10_code`, run `04_MobileNet_Embeddings.ipynb` to train and use the embeddings from MobileNet
-7. Under `10_code`, run `05_Multimodal_Model_Embeddings.ipynb` to train and use the embeddings from DistilBERT and MobileNet
+1. Install the requirements in `requirements.txt` using `pip install -r requirements.txt`
+1. If you cannot access data in `00_source_data` in this repo, download the data from the [Shopee Kaggle competition](https://www.kaggle.com/c/shopee-product-matching/data)
+1. Under `10_code`, run `01_train_test_split.ipynb` to split the data into train, validation and test sets
+1. Under `10_code`, run `02_Bert_Model.ipynb` to train and use the embeddings from SBERT and DistilBERT
+1. Under `10_code`, run `03_ResNet50_Embeddings.ipynb` to train and use the embeddings from ResNet50
+1. Under `10_code`, run `04_MobileNet_Embeddings.ipynb` to train and use the embeddings from MobileNet
+1. Under `10_code`, run `05_Multimodal_Model_Embeddings.ipynb` to train and use the embeddings from DistilBERT and MobileNet
