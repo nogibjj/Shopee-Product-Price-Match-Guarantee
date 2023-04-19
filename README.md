@@ -24,6 +24,10 @@ Shopee is the leading e-commerce platform in Southeast Asia and Taiwan; their pl
 
 [Link to Data](https://www.kaggle.com/c/shopee-product-matching/data)
 
+### Data Split
+
+
+
 ## Methods
 We used the following methods to train our models:
 - [SBERT](https://www.sbert.net/)
