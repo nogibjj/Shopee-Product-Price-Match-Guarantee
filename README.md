@@ -14,7 +14,10 @@
 A competitive feature amongst retail platforms is product matching which allows companies to offer products at rates competitive to other retailers selling similar products. There are many methods that combine deep learning and traditional machine learning methods to analyze image and text information to calculate similarity between products, however there is little research comparing the effectiveness of integrating multimodal data (product images and descriptions) under this domain (Łukasik et al., 2021). Here, we compare the performance of both unimodal and multimodal models. We trained separate models for text (SBERT and DistilBERT) and images (ResNet50 and MobileNet); the DistilBERT and ResNet50 models outperform the other two in terms of  F1 score and accuracy. The multimodal model used joint embeddings from DistilBERT and MobileNet to predict product labels, which outperformed both unimodal implementations. The integration of product images and titles offer the most useful information to find product matches on a particular platform. 
 
 ## Presentation
-https://youtu.be/FvDNHgyIBxA
+
+**Click on the image to watch the presentation**
+
+![image](https://user-images.githubusercontent.com/81750079/233124833-7b0fcfab-86bf-4579-a364-d508ebd4a798.png)(https://youtu.be/FvDNHgyIBxA)
 
 ## Data
 Shopee is the leading e-commerce platform in Southeast Asia and Taiwan; their platform contains products from vendors all over the world, predominantly in Singapore and Indonesia. In 2021, the company launched a Kaggle competition aimed at improving product matching algorithms to optimize their customers’ online shopping experience (Dane et al., 2021).
