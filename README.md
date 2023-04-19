@@ -29,4 +29,27 @@ We used the following methods to train our models:
 <img src="https://user-images.githubusercontent.com/81750079/233115703-5d9269f0-c75e-4f19-86df-1d42a974fdaa.png"  width="30%" height="40%">
 
 
+## Results
+The following table shows the performance of the models trained on the Shopee dataset. The DistilBERT and ResNet50 models outperform the other two in terms of  F1 score and accuracy. The multimodal model used joint embeddings from DistilBERT and MobileNet* to predict product labels , which outperformed both unimodal implementations. The integration of product images and titles offer the most useful information to find product matches on a particular platform.
 
+Note: Due to computational restritions, we substitued ResNet50 to MobileNet for the multimodal model.
+
+Performance on Test Set
+Model Type| Model | F1 Score | Accuracy |
+| --- | --- | --- | --- |
+| Text | SBERT | 0.43 | 0.45 |
+| Text | DistilBERT | 0.48 | 0.45 |
+| Image | ResNet50 | 0.45 | 0.48 |
+| Image | MobileNet | 0.38 | 0.40 |
+| Text & Image | Multimodal | 0.50 | 0.53 |
+
+
+## Reproducibility
+To reproduce our results, please follow the steps below:
+1. Clone the repository
+2. If you cannot access data in `00_source_data` in this repo, download the data from the [Shopee Kaggle competition](https://www.kaggle.com/c/shopee-product-matching/data)
+3. Under `10_code`, run `01_train_test_split.ipynb` to split the data into train, validation and test sets
+4. Under `10_code`, run `02_Bert_Model.ipynb` to train and use the embeddings from SBERT and DistilBERT
+5. Under `10_code`, run `03_ResNet50_Embeddings.ipynb` to train and use the embeddings from ResNet50
+6. Under `10_code`, run `04_MobileNet_Embeddings.ipynb` to train and use the embeddings from MobileNet
+7. Under `10_code`, run `05_Multimodal_Model_Embeddings.ipynb` to train and use the embeddings from DistilBERT and MobileNet
