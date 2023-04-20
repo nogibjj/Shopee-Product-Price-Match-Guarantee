@@ -19,6 +19,10 @@ A competitive feature amongst retail platforms is product matching which allows 
 
 [![image](https://user-images.githubusercontent.com/81750079/233124833-7b0fcfab-86bf-4579-a364-d508ebd4a798.png)](https://youtu.be/FvDNHgyIBxA)
 
+## Report
+
+[Shopee Final Report](https://github.com/nogibjj/Shopee-Product-Price-Match-Guarantee/blob/main/Shopee%20Final%20Report.pdf)
+
 ## Data
 Shopee is the leading e-commerce platform in Southeast Asia and Taiwan; their platform contains products from vendors all over the world, predominantly in Singapore and Indonesia. In 2021, the company launched a Kaggle competition aimed at improving product matching algorithms to optimize their customers’ online shopping experience (Dane et al., 2021).
 
